@@ -16,7 +16,7 @@
 
     <application
         tools:replace="android:allowBackup"
-        android:name="com.mcc.wpnews.app.MyApplication"
+        android:name="com.mcc.wpnews.net.mcc.wpnews.app.MyApplication"
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -25,7 +25,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="com.mcc.wpnews.activity.SplashActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.SplashActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name"
             android:theme="@style/AppTheme">
@@ -39,74 +39,74 @@
 
 
         <activity
-            android:name="com.mcc.wpnews.activity.MainActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.MainActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme"/>
 
 
         <activity
-            android:name="com.mcc.wpnews.activity.SettingsActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.SettingsActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme"/>
 
         <activity
-            android:name="com.mcc.wpnews.activity.NotificationActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.NotificationActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme"/>
 
 
         <activity
-            android:name="com.mcc.wpnews.activity.NotificationDetailsActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.NotificationDetailsActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme"/>
 
         <activity
-            android:name="com.mcc.wpnews.activity.CategoryListActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.CategoryListActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme"/>
 
         <activity
-            android:name="com.mcc.wpnews.activity.SubCategoryListActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.SubCategoryListActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme"/>
 
         <activity
-            android:name="com.mcc.wpnews.activity.MenuListActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.MenuListActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme"/>
 
         <activity
-            android:name="com.mcc.wpnews.activity.SubMenuListActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.SubMenuListActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme"/>
 
         <activity
-            android:name="com.mcc.wpnews.activity.SubSubMenuListActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.SubSubMenuListActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme"/>
 
         <activity
-            android:name="com.mcc.wpnews.activity.PostDetailsActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.PostDetailsActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/DetailsActivityTheme"/>
 
         <activity
-            android:name="com.mcc.wpnews.activity.CustomLinkAndPageActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.CustomLinkAndPageActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme"/>
 
         <activity
-            android:name="com.mcc.wpnews.activity.CommentListActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.CommentListActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme"/>
 
         <activity
-            android:name="com.mcc.wpnews.activity.CommentDetailsActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.CommentDetailsActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme"/>
 
         <activity
-            android:name="com.mcc.wpnews.activity.SearchActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.SearchActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme">
             <meta-data
@@ -116,22 +116,22 @@
         </activity>
 
         <activity
-            android:name="com.mcc.wpnews.activity.FavouriteListActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.FavouriteListActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme"/>
 
         <activity
-            android:name="com.mcc.wpnews.activity.HomeCategoriesActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.HomeCategoriesActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme"/>
 
         <activity
-            android:name="com.mcc.wpnews.activity.PostListActivity"
+            android:name="com.mcc.wpnews.net.mcc.wpnews.activity.PostListActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/AppTheme"/>
 
 
-        <service android:name="com.mcc.wpnews.notification.MyFirebaseMessagingService">
+        <service android:name="com.mcc.wpnews.net.mcc.wpnews.notification.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
             </intent-filter>

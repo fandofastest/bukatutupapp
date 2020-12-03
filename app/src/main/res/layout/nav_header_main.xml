@@ -26,14 +26,14 @@
             android:layout_toRightOf="@id/splashIcon"
             android:orientation="vertical">
 
-            <com.mcc.wpnews.view.PhenomenaTextView
+            <net.bukatutup.mynewsapp.view.PhenomenaTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/app_name"
                 android:textColor="@color/black"
                 android:textSize="22sp" />
 
-            <com.mcc.wpnews.view.PhenomenaTextView
+            <net.bukatutup.mynewsapp.view.PhenomenaTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/tagline"
