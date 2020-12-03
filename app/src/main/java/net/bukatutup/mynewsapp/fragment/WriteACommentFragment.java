@@ -12,8 +12,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.mcc.wpnews.R;
 
+import net.bukatutup.mynewsapp.R;
 import net.bukatutup.mynewsapp.api.models.posts.post.AuthorAvaterUrl;
 import net.bukatutup.mynewsapp.api.models.posts.post.CommentsAndReplies;
 import net.bukatutup.mynewsapp.api.models.posts.post.Content;

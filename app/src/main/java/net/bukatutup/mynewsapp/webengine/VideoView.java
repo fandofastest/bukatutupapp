@@ -10,7 +10,7 @@ import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 
-import com.mcc.wpnews.R;
+import net.bukatutup.mynewsapp.R;
 
 
 /**

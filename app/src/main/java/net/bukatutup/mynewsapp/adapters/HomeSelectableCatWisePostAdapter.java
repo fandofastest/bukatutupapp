@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.mcc.wpnews.R;
+import net.bukatutup.mynewsapp.R;
 
 import net.bukatutup.mynewsapp.api.models.posts.post.Post;
 import net.bukatutup.mynewsapp.listeners.ListItemClickListener;

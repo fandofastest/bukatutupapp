@@ -16,7 +16,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.mcc.wpnews.R;
+import net.bukatutup.mynewsapp.R;
 
 import net.bukatutup.mynewsapp.activity.PostDetailsActivity;
 import net.bukatutup.mynewsapp.adapters.PostsAdapter;

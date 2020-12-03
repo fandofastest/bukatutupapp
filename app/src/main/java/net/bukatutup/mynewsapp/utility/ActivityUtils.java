@@ -3,7 +3,7 @@ package net.bukatutup.mynewsapp.utility;
 import android.app.Activity;
 import android.content.Intent;
 
-import com.mcc.wpnews.R;
+import net.bukatutup.mynewsapp.R;
 
 import net.bukatutup.mynewsapp.api.models.category.Category;
 import net.bukatutup.mynewsapp.api.models.menus.SubMenuItem;

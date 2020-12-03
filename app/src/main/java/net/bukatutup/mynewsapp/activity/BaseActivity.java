@@ -13,8 +13,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.mcc.wpnews.R;
 
+import net.bukatutup.mynewsapp.R;
 import net.bukatutup.mynewsapp.utility.ActivityUtils;
 import net.bukatutup.mynewsapp.utility.AppUtils;
 import net.bukatutup.mynewsapp.utility.PermissionUtils;

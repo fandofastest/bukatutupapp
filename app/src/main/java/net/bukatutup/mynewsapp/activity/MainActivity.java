@@ -23,7 +23,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.mcc.wpnews.R;
+import net.bukatutup.mynewsapp.R;
 
 import net.bukatutup.mynewsapp.api.models.category.Category;
 import net.bukatutup.mynewsapp.api.models.menus.AnyMenu;

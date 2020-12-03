@@ -11,7 +11,7 @@ import com.google.android.material.snackbar.Snackbar;
 import android.view.View;
 import android.widget.Toast;
 
-import com.mcc.wpnews.R;
+import net.bukatutup.mynewsapp.R;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

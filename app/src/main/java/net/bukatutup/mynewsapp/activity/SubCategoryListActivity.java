@@ -8,7 +8,7 @@ import com.google.android.material.tabs.TabLayout;
 import androidx.viewpager.widget.ViewPager;
 import android.view.MenuItem;
 
-import com.mcc.wpnews.R;
+import net.bukatutup.mynewsapp.R;
 
 import net.bukatutup.mynewsapp.api.models.category.Category;
 import net.bukatutup.mynewsapp.utility.Ads;

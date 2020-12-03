@@ -10,8 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.mcc.wpnews.R;
 
+import net.bukatutup.mynewsapp.R;
 import net.bukatutup.mynewsapp.activity.SubCategoryListActivity;
 import net.bukatutup.mynewsapp.adapters.SubCategoryAdapter;
 import net.bukatutup.mynewsapp.api.models.category.Category;

@@ -12,7 +12,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.mcc.wpnews.R;
+import net.bukatutup.mynewsapp.R;
 
 import net.bukatutup.mynewsapp.api.models.posts.post.CommentsAndReplies;
 import net.bukatutup.mynewsapp.utility.ActivityUtils;

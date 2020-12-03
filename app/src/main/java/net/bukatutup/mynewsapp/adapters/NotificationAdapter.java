@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.mcc.wpnews.R;
+import net.bukatutup.mynewsapp.R;
 import net.bukatutup.mynewsapp.listeners.ListItemClickListener;
 import net.bukatutup.mynewsapp.models.NotificationModel;
 

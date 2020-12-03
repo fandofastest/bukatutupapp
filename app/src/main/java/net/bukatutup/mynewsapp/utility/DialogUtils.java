@@ -5,7 +5,7 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 
-import com.mcc.wpnews.R;
+import net.bukatutup.mynewsapp.R;
 
 /**
  * Created by Ashiq on 5/25/16.

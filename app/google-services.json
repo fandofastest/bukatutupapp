@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:962573414651:android:62d5cdb3c2eee8e7",
         "android_client_info": {
-          "package_name": "com.mcc.wpnews"
+          "package_name": "net.bukatutup.mynewsapp"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "962573414651-erg0o0vql8ub8g09fn425h3unp1vk7ma.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.mcc.wpnews",
+            "package_name": "net.bukatutup.mynewsapp",
             "certificate_hash": "f69a1656c802583dab8f432ade3e05b157b97743"
           }
         },

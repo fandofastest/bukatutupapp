@@ -7,7 +7,7 @@ import android.speech.tts.TextToSpeech;
 import android.widget.Toast;
 
 
-import com.mcc.wpnews.R;
+import net.bukatutup.mynewsapp.R;
 
 import java.util.ArrayList;
 import java.util.Locale;

@@ -11,8 +11,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.mcc.wpnews.R;
 
+import net.bukatutup.mynewsapp.R;
 import net.bukatutup.mynewsapp.api.models.category.Category;
 import net.bukatutup.mynewsapp.listeners.ListItemClickListener;
 

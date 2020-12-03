@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.mcc.wpnews.R;
+import net.bukatutup.mynewsapp.R;
 
 import net.bukatutup.mynewsapp.api.models.category.Category;
 import net.bukatutup.mynewsapp.api.params.HttpParams;
